@@ -1,0 +1,1 @@
+![EC2 labcode](img/ec2-labcode.png "Labcode")
