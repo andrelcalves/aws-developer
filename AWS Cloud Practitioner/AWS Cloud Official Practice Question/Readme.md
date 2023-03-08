@@ -35,23 +35,23 @@
 
 C - A AWS recomenda que você distribua as cargas de trabalho em várias zonas de disponibilidade. Essa distribuição garantirá a disponibilidade contínua da aplicação, mesmo que ela não esteja disponível em uma única zona de disponibilidade.
 
-Qual das seguintes opções é uma responsabilidade da AWS de acordo com o modelo de responsabilidade compartilhada da AWS?
+### 6. Qual das seguintes opções é uma responsabilidade da AWS de acordo com o modelo de responsabilidade compartilhada da AWS?
 
-* Projetar a aplicação do cliente para recuperação de desastres
-* Atualizar os sistemas operacionais convidados em instâncias EC implementadas
-* Configurar novos recursos em uma conta da AWS
-* Proteger a infraestrutura fisica (correto)
+- [ ] Projetar a aplicação do cliente para recuperação de desastres
+- [ ] Atualizar os sistemas operacionais convidados em instâncias EC implementadas
+- [ ] Configurar novos recursos em uma conta da AWS
+- [x] Proteger a infraestrutura fisica
 
 Correto. A AWS mantém totalmente os controles físicos.
 
 Para obter mais informações sobre o modelo de responsabilidade compartilhada, consulte [Modelo de responsabilidade compartilhada](https://aws.amazon.com/pt/compliance/shared-responsibility-model/).
 
-Qual das opções a seguir descreve uma melhor prática de segurança que pode ser implementada usando o AWS Identity and Access Management (IAM)?
+### 7. Qual das opções a seguir descreve uma melhor prática de segurança que pode ser implementada usando o AWS Identity and Access Management (IAM)?
 
-* A - Desativar o acesso ao Console de Gerenciamento da AWS para todos os usuários
-* B - Gerar chaves secretas para cada usuário da IAM
-* C - Conceder permissão a usuários que precisam executar apenas uma tarefa especifica. (correta)
-* D - Amerzenar credências da AWS em instâncias Amazon EC2 
+- [ ] A - Desativar o acesso ao Console de Gerenciamento da AWS para todos os usuários
+- [ ] B - Gerar chaves secretas para cada usuário da IAM
+- [x] C - Conceder permissão a usuários que precisam executar apenas uma tarefa especifica. 
+- [ ] D - Amerzenar credências da AWS em instâncias Amazon EC2 
 
 C - Por meio da recomendação de segurança de menor privilégio, uma prática recomendada do IAM é conceder permissões detalhadas aos usuários usando IAM roles.
 
@@ -59,14 +59,14 @@ Para obter mais informações sobre as melhores práticas do IAM e o menor privi
 
 Para obter mais informações sobre as melhores práticas de proteção de uma conta da AWS, consulte [Quais são algumas das melhores práticas para proteger minha conta da AWS e seus recursos?](https://aws.amazon.com/pt/premiumsupport/knowledge-center/security-best-practices/)
 
-8) Uma empresa precisa monitorar e receber alertas sobre eventos de login do Console de Gerenciamento da AWS que envolvem o usuário raiz da conta da AWS.
+### 8. Uma empresa precisa monitorar e receber alertas sobre eventos de login do Console de Gerenciamento da AWS que envolvem o usuário raiz da conta da AWS.
 
 Qual produto da AWS a empresa pode usar para atender a esses requisitos?
 
-A - Amaozon Cloud Front (correto)
-B - AWS Config
-C - AWS Truested Adivisor
-D - AWS Identity and Access Managment (IAM)
+- [x] A - Amaozon Cloud Watch
+- [ ] B - AWS Config
+- [ ] C - AWS Truested Adivisor
+- [ ] D - AWS Identity and Access Managment (IAM)
 
 O CloudWatch monitora os recursos da AWS e as aplicações executadas em tempo real na AWS. Você pode usar o CloudWatch para monitorar e receber alertas sobre eventos de login do console que envolvam o usuário raiz da conta da AWS.
 
