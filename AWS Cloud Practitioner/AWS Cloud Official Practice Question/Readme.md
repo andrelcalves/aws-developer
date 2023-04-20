@@ -291,3 +291,44 @@ Amazon QuickSight
 . Você pode monitorar suas cobranças estimadas da AWS usando o CloudWatch. Quando você ativa o monitoramento de cobranças estimadas em sua conta da AWS, elas são calculadas e enviadas várias vezes ao dia para o CloudWatch como dados de métrica.
 
 Para obter mais informações sobre o CloudWatch, consulte [Criação de um alarme de faturamento para monitorar as cobranças estimadas da AWS.](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html)
+
+
+
+### A possibilidade de dimensionar horizontalmente as instâncias do Amazon EC2 sob demanda é um exemplo de qual conceito na proposta de valor da AWS Cloud?
+
+- [ ] A - Economia de dimensionamento
+- [X] B - Elasticidade (Elasticity)
+- [ ] C - Alta Disponibilidade
+- [ ] D - Agilidade
+
+*Excplicação*  
+[X] B - Elasticidade (Elasticity) -> dimnensionar horizontalmente sob denmanda (at scale) é 
+uma fator principal do conceito de elasticidade.
+
+
+### Qual despesa on-promise será reduzida se a empresa migrar para a Amazon EC2?
+
+
+- [x] A - Custo do hardware do servidor
+- [ ] B - Custo do armazenamento no Amazon EBS
+- [ ] C - Custo de backup de armazenamento
+- [ ] D - Custo de transferência de dados para internet
+
+*Excplicação*  
+[X] A - Custo do hardware do servidor -> Custos de hardware de servidor está incluido no custo 
+do Amazon EC2
+
+
+### Qual das opções representa um princípio de projeto de arquitetura da AWS Cloud?
+
+
+- [ ] A - Implementar pontos únicos de falha
+- [x] B - Implementar acoplamento fraco
+- [ ] C - Implementar projeto monolítico
+- [ ] D - Implementar scaling vertical
+
+
+*Excplicação*  
+[X] B - Implementar acoplamento fraco. A e C são antipatners. D não é um principio já que
+recomenda-se sacling horizontal e não vertifical.
+ 

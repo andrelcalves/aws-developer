@@ -7,8 +7,8 @@
 - [ ] C - Alta Disponibilidade
 - [ ] D - Agilidade
 
-B - dimnensionar horizontalmente sob denmanda (at scale) é uma fator principal da elasticidade.
-
+*Excplicação*  
+[X] B - Elasticidade (Elasticity) -> dimnensionar horizontalmente sob denmanda (at scale) é uma fator principal do conceito de elasticidade.
 
 # Aspects Cloud Economics
 
@@ -27,7 +27,7 @@ Custos necessários para efetuar as operações on-primeses. Exemploes: cento de
 As linceças atuais poderam ou não ser utilizadas em um ambiente Cloud. É um aspecto que precisa ser avalidado.
 
 ## Opreações de redução de custo
-Determinar o que trarar economicamente uma redução ao migrar para Cloud.
+Determinar o que economicamente proporciona uma redução ao migrar para Cloud.
 
 * Dimensionamento correto da infraestrutura
 * Automação
@@ -35,13 +35,26 @@ Determinar o que trarar economicamente uma redução ao migrar para Cloud.
 * Managed Services
 
 
+### Qual despesa on-promise será reduzida se a empresa migrar para a Amazon EC2?
 
 
-## Security
-## Reability
+- [x] A - Custo do hardware do servidor
+- [ ] B - Custo do armazenamento no Amazon EBS
+- [ ] C - Custo de backup de armazenamento
+- [ ] D - Custo de transferência de dados para internet
 
 
-# Value proposition
+*Excplicação*  
+[X] A - Custo do hardware do servidor -> Custos de hardware de servidor está incluido no custo do Amazon EC2
+
+# Principios de projeto de arquitetura
+
+* Design à prova de falhas
+* Componentes desacoplados versus arquiteturas monolítica
+* Implemente elasticidade na nuvem versus on-premise
+* Pense paralelo
+
+
 
 
 
