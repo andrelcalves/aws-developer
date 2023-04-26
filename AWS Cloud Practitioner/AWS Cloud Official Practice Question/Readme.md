@@ -125,7 +125,7 @@ _D -  O Direct Connect fornece uma conexão privada dedicada entre suas instala�
 
  
 - [ ] A - Várias zonas de disponibilidade em uma região da AWS
-- [x] B - Várias regiões AWS (Correto)
+- [x] B - Várias regiões AWS 
 - [ ] C - Tags
 - [ ] D - Resource Groups
 
